@@ -177,6 +177,39 @@ section:last-of-type {
   font-size: 0.95rem;
 }
 
+/* Photos */
+.photo-frame {
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--bg-panel);
+}
+
+.photo-frame img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-frame.about-photo,
+.release-grid .photo-frame {
+  min-height: 320px;
+}
+
+.gallery-grid .photo-frame {
+  min-height: 200px;
+}
+
+.techniques-note {
+  margin-top: 2rem;
+  color: var(--text-muted);
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 /* Image placeholders */
 .img-placeholder {
   border: 2px dashed var(--border);
