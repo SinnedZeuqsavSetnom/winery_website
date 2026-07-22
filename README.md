@@ -13,3 +13,4 @@ Drop photos into the matching subfolder under `images/`:
 - `images/upcoming-release/` — other next releases, not yet public
 - `images/method/` — general harvest/production shots
 - `images/brand/` — label art, logo, reusable brand assets
+- `images/site/` — generic, non-release/non-method imagery: about page, landing page, footer, banners, and anywhere else site-wide
