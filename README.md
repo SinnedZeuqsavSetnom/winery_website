@@ -9,6 +9,7 @@ Source for [thechthonicwinery.com](https://thechthonicwinery.com), hosted on Git
 Drop photos into the matching subfolder under `images/`:
 
 - `images/current-release/persephones_boon/` — Persephone's Boon (2025 Seyval Blanc)
-- `images/upcoming-release/` — next release, not yet public
-- `images/process/` — general harvest/production shots
+- `images/upcoming-release/even_devils_fear_what_they_cannot_understand/` — non-commercial test release
+- `images/upcoming-release/` — other next releases, not yet public
+- `images/method/` — general harvest/production shots
 - `images/brand/` — label art, logo, reusable brand assets
