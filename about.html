@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Us — The Chthonic Winery</title>
+<meta name="description" content="The story behind The Chthonic Winery, and how to get in touch.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Jost:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <div class="brand"><a href="index.html" style="color: inherit; text-decoration: none;">the chthonic winery</a></div>
+    <nav>
+      <a href="index.html#techniques">Techniques</a>
+      <a href="index.html#current-release">Current Release</a>
+      <a href="about.html">About Us</a>
+    </nav>
+  </div>
+</header>
+
+<section id="about">
+  <div class="container about-grid">
+    <div>
+      <div class="collab-tag">dear native grapes, &times; the chthonic winery</div>
+      <h2>Our story</h2>
+      <p>The Chthonic Winery is a Brooklyn-based natural wine project made in collaboration with growers and winemakers upstate — no tasting room, no estate, just a hands-on partnership built around a shared curiosity for how wine was made before modern winemaking gave us shortcuts.</p>
+      <p>Our focus is ancient technique: flor yeast cultures, oxidative aging under a blanket of olive oil, rancio character coaxed out through controlled light exposure, and botanical preservation methods — thyme, rosemary, pine, elderberry — used the way winemakers relied on them for thousands of years before ready-made sulfites existed.</p>
+      <p>There is a plethora of these methods to explore, each of which can be tuned to the characteristics of a given varietal and harvest. That wealth of pre-industrial knowledge is a treasure trove of experiments we're excited to run — using the unique flavor profiles that our terroir and native grapes offer to the world of winemaking.</p>
+    </div>
+    <div class="img-placeholder"><!-- collaborators / production setup photo -->Image</div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Get in touch</h2>
+      <div class="accent-rule"></div>
+    </div>
+    <form class="contact-form" id="contact-form">
+      <input type="hidden" name="access_key" value="7dc49768-0926-410d-b529-41d3d9f71d32">
+      <input type="hidden" name="subject" value="New message from thechthonicwinery.com">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
+
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit">Send message</button>
+      <div class="form-status" id="form-status"></div>
+    </form>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    &copy; 2026 The Chthonic Winery. All rights reserved.
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
