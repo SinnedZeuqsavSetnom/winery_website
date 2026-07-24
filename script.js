@@ -40,8 +40,12 @@ document.querySelectorAll('.carousel').forEach((carousel) => {
   let index = 0;
 
   function update() {
-    img.src = images[index];
-    img.alt = alts[index];
+    img.style.opacity = 0;
+    window.setTimeout(() => {
+      img.src = images[index];
+      img.alt = alts[index];
+      img.style.opacity = 1;
+    }, 250);
     leftBtn.disabled = index === 0;
     rightBtn.disabled = index === images.length - 1;
   }

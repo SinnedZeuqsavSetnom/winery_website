@@ -169,6 +169,36 @@ section:last-of-type {
   background: var(--amber);
 }
 
+/* Collapsible sections */
+.testing-details summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.testing-details summary::-webkit-details-marker {
+  display: none;
+}
+
+.testing-details summary::marker {
+  content: "";
+}
+
+.testing-toggle-hint {
+  display: block;
+  margin-top: 0.75rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+}
+
+.testing-toggle-hint::after {
+  content: "Click to expand \25be";
+}
+
+.testing-details[open] .testing-toggle-hint::after {
+  content: "Click to collapse \25b4";
+}
+
 /* About */
 .about-grid {
   display: grid;
@@ -256,6 +286,10 @@ section:last-of-type {
 /* Image carousel */
 .carousel {
   position: relative;
+}
+
+.carousel .photo-frame img {
+  transition: opacity 0.25s ease;
 }
 
 .carousel-arrow {
