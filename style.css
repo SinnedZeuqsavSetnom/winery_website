@@ -117,10 +117,16 @@ nav a:hover {
 
 /* Decorative banner strip */
 .banner-strip {
+  display: block;
   height: 260px;
   background-size: cover;
   background-position: center;
   border-bottom: 1px solid var(--border);
+  transition: opacity 0.2s ease;
+}
+
+.banner-strip:hover {
+  opacity: 0.85;
 }
 
 /* Sections */
