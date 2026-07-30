@@ -218,26 +218,27 @@ section:last-of-type {
 
 .photo-frame img.chalk-arrow {
   position: absolute;
-  left: 55%;
-  top: 36%;
+  left: 70%;
+  top: 55%;
   width: 60px;
   height: auto;
   object-fit: contain;
   display: block;
   pointer-events: none;
   filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.55));
+  rotate: -10deg;
 }
 
 .chalk-label {
   position: absolute;
-  right: 6%;
+  right: 2%;
   bottom: 10%;
   color: #22b2a6;
   font-family: 'Caveat', cursive;
   font-size: 1.7rem;
   line-height: 1.15;
   text-align: right;
-  text-shadow: 0 0 6px rgba(0, 0, 0, 0.65);
+  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.85);
   transform: rotate(-4deg);
   pointer-events: none;
 }
