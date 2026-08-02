@@ -323,6 +323,11 @@ section:last-of-type {
   min-height: 320px;
 }
 
+#winemaker .photo-frame.about-photo {
+  width: 70%;
+  min-height: 224px;
+}
+
 /* Image carousel */
 .carousel {
   position: relative;
