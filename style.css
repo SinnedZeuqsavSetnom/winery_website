@@ -326,6 +326,7 @@ section:last-of-type {
 #winemaker .photo-frame.about-photo {
   width: 75%;
   min-height: 240px;
+  margin: 0 auto;
 }
 
 /* Image carousel */
