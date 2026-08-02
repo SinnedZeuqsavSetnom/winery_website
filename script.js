@@ -17,7 +17,7 @@ if (form) {
       const result = await response.json();
 
       if (result.success) {
-        status.textContent = "Thanks — your message is on its way. We'll get back to you soon.";
+        status.textContent = "Thanks - your message is on its way. We'll get back to you soon.";
         status.className = 'form-status success';
         form.reset();
       } else {
