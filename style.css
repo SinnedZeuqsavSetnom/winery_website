@@ -325,6 +325,10 @@ section:last-of-type {
   font-size: 0.95rem;
 }
 
+.technique-card p + p {
+  margin-top: 0.6rem;
+}
+
 /* Photos */
 .photo-frame {
   border: 1px solid var(--border);
