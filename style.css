@@ -324,8 +324,8 @@ section:last-of-type {
 }
 
 #winemaker .photo-frame.about-photo {
-  width: 70%;
-  min-height: 224px;
+  width: 75%;
+  min-height: 240px;
 }
 
 /* Image carousel */
